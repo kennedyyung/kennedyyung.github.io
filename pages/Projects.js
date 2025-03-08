@@ -5,7 +5,7 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <div className=" bg-base dark:bg-dark-base">
-      <div className="grid mt-10">
+      <div className="grid mt-10 mb-20">
         <div className="py-15 text-black dark:text-dark-text" id="projects">
           <div className="grid place-items-center">
             <div className="font-extrabold text-5xl  mb-10">Projects</div>

@@ -13,27 +13,27 @@ const Experience = () => {
 
           <div>
             <div className="grid grid-cols-2">
-              <h1 className="font-bold text-xl ml-10 mt-5 ">
+              <h1 className="font-bold text-2xl ml-10 mt-5 ">
                 Information Systems Intern
               </h1>
-              <p className="flex justify-end mr-10 mt-5 ">
+              <p className="flex justify-end mr-10 mt-5 text-lg">
                 January 2025 - present
               </p>
             </div>
-            <p className="font-bold italic ml-10">
+            <p className="font-bold italic ml-10 text-lg">
               Engineers and Geoscientists BC
             </p>
 
-            <ul className="list-disc list-inside ml-10">
+            <ul className="list-disc list-inside ml-10 text-norm">
               <li> Technology Stack: C#, KendoUI, JavaScript, React.Js, SQL</li>
             </ul>
           </div>
 
           <div>
-            <h1 className="font-bold text-xl ml-10 mt-5 ">
+            <h1 className="font-bold text-2xl ml-10 mt-5 ">
               UBC BEST Design Team
             </h1>
-            <ul className="list-disc list-inside ml-10">
+            <ul className="list-disc list-inside ml-10 ">
               <li>
                 {" "}
                 Biomedical engineering team developing a data-driven
@@ -45,8 +45,8 @@ const Experience = () => {
             </ul>
 
             <div className="grid grid-cols-2 mt-2">
-              <p className="font-bold italic ml-10">M2M: Co-Lead</p>
-              <p className="flex justify-end mr-10  ">
+              <p className="font-bold text-lg italic ml-10">M2M: Co-Lead</p>
+              <p className="flex justify-end mr-10 text-lg ">
                 September 2024 - present
               </p>
             </div>
@@ -78,10 +78,10 @@ const Experience = () => {
           </div>
           <div>
             <div className="grid grid-cols-2">
-              <p className="font-bold italic ml-10 mt-2">
+              <p className="text-lg font-bold italic ml-10 mt-2">
                 M2M: Software Engineer
               </p>
-              <p className="flex justify-end mr-10 ">October 2023 - present</p>
+              <p className="flex justify-end mr-10 text-lg">October 2023 - Sept 2024</p>
             </div>
 
             <ul className="list-disc list-inside ml-10">
@@ -108,14 +108,14 @@ const Experience = () => {
           </div>
           <div>
             <div className="grid grid-cols-2">
-              <h1 className="font-bold text-xl ml-10 mt-5 ">
+              <h1 className="font-bold text-2xl ml-10 mt-5 ">
                 Front-End Web Developer
               </h1>
-              <p className="flex justify-end mr-10 mt-5 ">
+              <p className="flex justify-end mr-10 mt-5 text-lg">
                 May 2024 - December 2024
               </p>
             </div>
-            <p className="font-bold italic ml-10">
+            <p className="text-lg font-bold italic ml-10">
               UBC Faculty of Applied Science
             </p>
 
@@ -165,14 +165,14 @@ const Experience = () => {
 
           <div>
             <div className="grid grid-cols-2">
-              <h1 className="font-bold text-xl ml-10 mt-5 ">
+              <h1 className="font-bold ml-10 mt-5 text-2xl">
                 Student Developer
               </h1>
-              <p className="flex justify-end mr-10 mt-5 ">
+              <p className="flex justify-end mr-10 mt-5 text-lg">
                 November 2023 - April 2024
               </p>
             </div>
-            <p className="font-bold italic ml-10">
+            <p className="font-bold italic ml-10 text-lg">
               UBC Computer Science Society
             </p>
             <ul className="list-disc list-inside ml-10">
