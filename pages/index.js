@@ -9,11 +9,12 @@ import ContactForm from "./ContactForm";
 
 const index = () => {
   return (
-    <main className="bg-base dark:bg-dark_base overflow-hidden snap-y scroll-smooth">
+
+    <main className="bg-base dark:bg-dark-base overflow-hidden snap-y scroll-smooth">
       <HomePage/>
-      <Education/>
       <Experience/>
       <Projects/>
+      <Education/>
       <ContactForm/>
     </main>
 

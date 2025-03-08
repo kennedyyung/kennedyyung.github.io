@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const EcoChef = () => {
     return (
-        <div className="container min-h-screen bg-base dark:bg-dark_base flex flex-col items-center mt-10">
-            <h1 className="font-bold text-2xl text-black dark:text-dark_text mt-10">EcoChef</h1>
+        <div className="container min-h-screen bg-base dark:bg-dark-base flex flex-col items-center mt-10">
+            <h1 className="font-bold text-2xl text-black dark:text-dark-text mt-10">EcoChef</h1>
 
             <div className="card w-3/4 bg-txt text-white mt-5 overflow-auto-y">
                 <div className="card-body items-center text-center">

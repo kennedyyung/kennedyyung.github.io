@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Experience = () => {
   return (
-    <div className="container bg-base dark:bg-dark_base">
+    <div className="flex bg-base dark:bg-dark-base">
       <div className="grid mb-20">
-        <div className="py-19 text-black dark:text-dark_text" id="experience">
+        <div className="py-19 text-black dark:text-dark-text" id="experience">
           <div className="grid place-items-center">
             <div className="font-extrabold text-5xl mb-10">Experience</div>
           </div>
@@ -59,13 +59,20 @@ const Experience = () => {
               </li>
               <li>
                 {" "}
+                Lead the design and development of our games, ensuring high-quality gameplay and seamless user experience
+              </li>
+              <li>
+                {" "}
+                Leading the redesign and migration of our React Native app to Flutter while maintaining existing functionality, improving performance and ensuring cross-platform consistency
+              </li>
+              <li>
+                {" "}
                 Implemented agile methodologies using Jira as co-lead,
                 optimizing task tracking and team efficiency
               </li>
               <li>
                 {" "}
-                Working closely with EntraprenuershipUBC and attending workshops
-                with mentors to commercialize our product
+                Engage with entrepreneurship@UBC through workshops and mentorship to explore commercialization opportunities for our product
               </li>
             </ul>
           </div>
@@ -78,13 +85,6 @@ const Experience = () => {
             </div>
 
             <ul className="list-disc list-inside ml-10">
-              <li>
-                {" "}
-                Contributed to a biomedical engineering team in constructing a
-                data-driven glove with a companion app and games for Multiple
-                Sclerosis rehabilitation, focusing on hand dexterity and proving
-                progress tracking
-              </li>
               <li>
                 {" "}
                 Established a modular UI component library with React Native for

@@ -4,16 +4,16 @@ import Image from "next/image";
 
 const Education = () => {
     return (
-        <div className="container bg-base dark:bg-dark_base">
+        <div className="flex bg-base dark:bg-dark-base">
             <div className="grid mb-20">
-                <div className="py-15" id="education">
+                <div className="py-15 text-black dark:text-dark-text" id="education">
                     <div className="grid place-items-center">
-                        <div className="font-extrabold text-5xl text-black dark:text-dark_text mb-10">Education</div>
+                        <div className="font-extrabold text-5xl mb-10">Education</div>
                     </div>
                     <hr />
 
 
-                    <div className="card-body px-10 grid grid-cols-6 gap-2 text-black dark:text-dark_text">
+                    <div className="card-body px-10 grid grid-cols-6 gap-2 text-black dark:text-dark-text">
                         <div className="col-start-2 col-span-2 ">
                             <Image
                                 src="/ubc.png"
@@ -30,9 +30,9 @@ const Education = () => {
                         </div>
                     </div>
 
-                    <h3 className="font-bold text-2xl ml-10 text-black dark:text-dark_text mb-2">Relevant Courses</h3>
+                    <h3 className="font-bold text-2xl ml-10 text-black dark:text-dark-text mb-2">Relevant Courses</h3>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-black dark:text-dark_text mb-5">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-black dark:text-dark-text mb-5">
                         <div>
                             <p className="ml-10 font-bold italic">CPSC 330: Applied Machine Learning</p>
                             <ul className="list-disc list-inside ml-10">
@@ -51,7 +51,7 @@ const Education = () => {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-black dark:text-dark_text mb-5">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-black dark:text-dark-text mb-5">
                         <div>
                             <p className="ml-10 font-bold italic">CPSC 304: Introduction to Relational Databases</p>
                             <ul className="list-disc list-inside ml-10">
@@ -70,7 +70,7 @@ const Education = () => {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-black dark:text-dark_text mb-5">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-black dark:text-dark-text mb-5">
                         <div>
                             <p className="ml-10 font-bold italic">CPSC 221: Basic Algorithms and Data Structures</p>
                             <ul className="list-disc list-inside ml-10">

@@ -1,3 +1,5 @@
+
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: 'class',
@@ -10,17 +12,17 @@ module.exports = {
     colors: {
       'base': '#fcfcfc',
       'nav': '#627c85',
-      'dark_nav': '#9DD9EE',
+      'dark-nav': '#9DD9EE',
       'button': '#FFC1CF',
-      'dark_button': '#ED6887',
+      'dark-button': '#ED6887',
       'txt': '#67597A',
       'green-grey': '#35524a',
       'white': '#ffffff',
       'black': '#000000',
       'sidebar': '#8FB8DE',
       'input': '#efefef',
-      'dark_base': '#1D2125',
-      'dark_text': '#F7F8F9',
+      'dark-base': '#1D2125',
+      'dark-text': '#F7F8F9',
     },
     extend: {
       gridTemplateColumns: {
@@ -34,6 +36,9 @@ module.exports = {
         '2': '16px', // 2 units
         '3': '24px', // 3 units
         // Add more spacing values as needed
+      },
+      fontFamily: {
+        sans: ["var(--font-rubik)"],
       },
     },
   },

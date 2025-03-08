@@ -11,5 +11,5 @@ body {
 }
 
 .dark\:body {
-    @apply bg-dark_base;
+    @apply bg-dark-base;
 } */

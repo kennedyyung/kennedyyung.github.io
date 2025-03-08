@@ -19,11 +19,6 @@ export const defaultNavItems = [
     icon: <HomeIcon className="w-6 h-6" />,
   },
   {
-    label: "Education",
-    href: "/#education",
-    icon: <BookOpenIcon className="w-6 h-6" />,
-  },
-  {
     label: "Experience",
     href: "/#experience",
     icon: <BriefcaseIcon className="w-6 h-6" />,
@@ -32,6 +27,11 @@ export const defaultNavItems = [
     label: "Projects",
     href: "/#projects",
     icon: <RectangleStackIcon className="w-6 h-6" />,
+  },
+  {
+    label: "Education",
+    href: "/#education",
+    icon: <BookOpenIcon className="w-6 h-6" />,
   },
   {
     label: "Contact Me",

@@ -4,10 +4,10 @@ import Link from "next/link";
 
 const Archived = () => {
     return (
-        <div className="container min-h-screen bg-base dark:bg-dark_base">
+        <div className="container min-h-screen bg-base dark:bg-dark-base">
             <div className="grid min-h-screen">
                 <div className="py-15"> 
-                    <div className="font-extrabold text-5xl text-black dark:text-dark_text mb-10 ml-10">Projects</div>
+                    <div className="font-extrabold text-5xl text-black dark:text-dark-text mb-10 ml-10">Projects</div>
 
                         <div className="grid grid-cols-2 grid-flow-row gap-5 ml-10">
                             <Link href="/PC_Parts">

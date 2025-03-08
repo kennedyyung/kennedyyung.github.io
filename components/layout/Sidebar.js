@@ -14,19 +14,19 @@ const Sidebar = ({ open, setOpen }) => {
   return (
     <div
       className={classNames({
-        "flex flex-col justify-between": true, // layout
-        "bg-sidebar dark:bg-sidebar text-black": true, // colors
-        "md:w-full md:sticky md:top-1 md:z-0 top-0 z-20 fixed": true, // positioning
-        "md:h-screen w-[300px] overflow-y-auto": true, // make sidebar scrollable and full height on desktop
-        "transition-transform .3s ease-in-out md:-translate-x-0": true, // animations
-        "-translate-x-full": !open, // hide sidebar to the left when closed
+        "flex flex-col justify-between": true, 
+        "bg-sidebar dark:bg-sidebar text-black": true,
+        "md:w-full md:sticky md:top-1 md:z-0 top-0 z-20 fixed": true, 
+        "md:h-screen w-[300px] overflow-y-auto": true, 
+        "transition-transform .3s ease-in-out md:-translate-x-0": true, 
+        "-translate-x-full": !open, 
       })}
       ref={ref}
     >
       <nav className="md:sticky mt-10 md:top-1">
         <div className="flex items-center justify-center mt-10">
           <Image
-            src="/icon.jpg" // Ensure you provide the correct path
+            src="/icon.jpg" 
             height={100}
             width={200}
             alt="profile image"
@@ -55,10 +55,10 @@ const Sidebar = ({ open, setOpen }) => {
             <a key={index} href={item.href}>
               <li
                 className={classNames({
-                  "text-black hover:bg-indigo-900": true, //colors
-                  "flex gap-4 items-center": true, //layout
-                  "transition-colors duration-300": true, //animation
-                  "rounded-md p-2 mx-2": true //self style
+                  "text-black hover:bg-indigo-900": true, 
+                  "flex gap-4 items-center": true, 
+                  "transition-colors duration-300": true, 
+                  "rounded-md p-2 mx-2": true 
                 })}
               >
                 {item.icon} {item.label}

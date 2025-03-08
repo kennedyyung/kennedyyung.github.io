@@ -4,8 +4,8 @@ import Link from 'next/link';
 
 const HarmonyHealth = () => {
     return (
-        <div className="container min-h-screen overflow-auto-y bg-base dark:bg-dark_base flex flex-col items-center mt-10">
-        <h1 className="font-bold text-2xl text-black dark:text-dark_text mt-10">Harmony Health</h1>
+        <div className="container min-h-screen overflow-auto-y bg-base dark:bg-dark-base flex flex-col items-center mt-10">
+        <h1 className="font-bold text-2xl text-black dark:text-dark-text mt-10">Harmony Health</h1>
         <div>
         {/* <Image
                                 src="/calendar-1.png"
