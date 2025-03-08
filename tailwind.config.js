@@ -37,9 +37,9 @@ module.exports = {
         '3': '24px', // 3 units
         // Add more spacing values as needed
       },
-      fontFamily: {
-        sans: ["var(--font-rubik)"],
-      },
+      // fontFamily: {
+      //   sans: ["var(--font-rubik)"],
+      // },
     },
   },
   plugins: [
