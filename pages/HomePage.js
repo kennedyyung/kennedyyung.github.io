@@ -31,7 +31,7 @@ const HomePage = () => {
         />
       </Head>
       <div className="py-20">
-        <div className="font-extrabold text-7xl text-black dark:text-dark-text mb-10 ml-20">
+        <div className="font-extrabold text-6xl text-black dark:text-dark-text mb-10 ml-20">
           <Typing text="Hi, welcome to my website!" delay={100} />
         </div>
 

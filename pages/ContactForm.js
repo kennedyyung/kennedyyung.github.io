@@ -40,19 +40,14 @@ const ContactForm = () => {
         <hr />
         <div className="mt-5">
       <form ref={form} onSubmit={sendEmail}>
-        <div className="grid grid-flow-row ml-5 text-black dark:text-dark-text">
-        <label>Name</label>
-        <input type="text" name="user_name" className=" mb-2 bg-input text-black border border-gray-300  text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5" placeholder="Name" required />
+        <div className="grid grid-flow-row ml-5 text-black dark:text-dark-text place-items-center">
+          <p className="mb-4 text-lg">Feel free to reach out — whether you have feedback or just want to connect!</p>
+          <input type="text" name="user_name" className="mb-2 bg-input text-black border border-gray-300  text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5" placeholder="Name" required />
+          <input type="text" name="user_email" className="mb-2 bg-input text-black border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5" placeholder="Email" required />
+          <textarea name="message" rows="4" className="block p-2.5 w-1/2 text-sm bg-input text-black rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 " placeholder="Write your message here"></textarea>
 
-        <label>Email</label>
-
-        <input type="text" name="user_email" className="mb-2 bg-input text-black border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5" placeholder="Email" required />
-        <label>Message</label>
-
-        <textarea name="message" rows="4" className="block p-2.5 w-3/4 text-sm bg-input text-black rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 " placeholder="Write your message here"></textarea>
-
-        <button type="submit" value="Send"  className="mt-2 mb-3 px-3 bg-txt w-1/5 text-sm font-medium text-center text-white p-2.5 bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">Submit</button>
-        {stateMessage && <p>{stateMessage}</p>}
+          <button type="submit" value="Send"  className="mt-2 mb-3 px-3 bg-txt w-1/5 text-sm font-medium text-center text-white p-2.5 bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">Submit</button>
+          {stateMessage && <p>{stateMessage}</p>}
         </div>
       </form>
       </div>
