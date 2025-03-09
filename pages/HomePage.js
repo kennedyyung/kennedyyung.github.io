@@ -15,7 +15,7 @@ const learningTech = [
 
 const HomePage = () => {
   return (
-    <div className=" h-screen flex justify-center items-center bg-base dark:bg-dark-base ">
+    <div className="justify-center items-center bg-base dark:bg-dark-base ">
             <Head>
         <title>Home Page</title>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-064E3270RM"></script>
