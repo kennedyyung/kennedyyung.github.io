@@ -59,11 +59,14 @@ const Experience = () => {
               </li>
               <li>
                 {" "}
-                Lead the design and development of our games, ensuring high-quality gameplay and seamless user experience
+                Lead the design and development of our games, ensuring
+                high-quality gameplay and seamless user experience
               </li>
               <li>
                 {" "}
-                Leading the redesign and migration of our React Native app to Flutter while maintaining existing functionality, improving performance and ensuring cross-platform consistency
+                Leading the redesign and migration of our React Native app to
+                Flutter while maintaining existing functionality, improving
+                performance and ensuring cross-platform consistency
               </li>
               <li>
                 {" "}
@@ -72,7 +75,9 @@ const Experience = () => {
               </li>
               <li>
                 {" "}
-                Engage with entrepreneurship@UBC through workshops and mentorship to explore commercialization opportunities for our product
+                Engage with entrepreneurship@UBC through workshops and
+                mentorship to explore commercialization opportunities for our
+                product
               </li>
             </ul>
           </div>
@@ -81,7 +86,9 @@ const Experience = () => {
               <p className="text-lg font-bold italic ml-10 mt-2">
                 M2M: Software Engineer
               </p>
-              <p className="flex justify-end mr-10 text-lg">October 2023 - Sept 2024</p>
+              <p className="flex justify-end mr-10 text-lg">
+                October 2023 - Sept 2024
+              </p>
             </div>
 
             <ul className="list-disc list-inside ml-10">
