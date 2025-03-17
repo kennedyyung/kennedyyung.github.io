@@ -26,16 +26,13 @@ module.exports = {
     },
     extend: {
       gridTemplateColumns: {
-        sidebar: "300px auto", //for sidebar layout
-      },
-      gridTemplateRows: {
-        header: "64px auto", //for the navbar layout
+        sidebar: "300px auto", 
       },
       spacing: {
-        '1': '8px', // 1 unit
-        '2': '16px', // 2 units
-        '3': '24px', // 3 units
-        // Add more spacing values as needed
+        '1': '8px', 
+        '2': '16px', 
+        '3': '24px', 
+
       },
       fontFamily: {
         sans: ["var(--font-rubik)"],

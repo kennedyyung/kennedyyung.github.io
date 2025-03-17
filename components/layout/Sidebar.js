@@ -1,10 +1,10 @@
-
 import React, { useRef } from "react";
 import classNames from "classnames";
 import Link from "next/link";
 import Image from "next/image";
 import { defaultNavItems } from "./defaultNavItems";
 import { useOnClickOutside } from "usehooks-ts";
+import ThemeSwitcher from "./ThemeSwitcher"; 
 
 const Sidebar = ({ open, setOpen }) => {
   const ref = useRef(null);
@@ -15,7 +15,7 @@ const Sidebar = ({ open, setOpen }) => {
     <div
       className={classNames({
         "flex flex-col justify-between": true, 
-        "bg-sidebar dark:bg-sidebar text-black": true,
+        "bg-sidebar text-black": true, 
         "md:w-full md:sticky md:top-1 md:z-0 top-0 z-20 fixed": true, 
         "md:h-screen w-[300px] overflow-y-auto": true, 
         "transition-transform .3s ease-in-out md:-translate-x-0": true, 
@@ -34,18 +34,20 @@ const Sidebar = ({ open, setOpen }) => {
           />
         </div>
 
-        <div className="font-bold text-lg text-black flex items-center justify-center mt-2 mb-2">Kennedy Yung</div>
-        
-        <div className="grid grid-flow-row flex items-center justify-center">
+        <div className="font-bold text-lg text-black flex items-center justify-center mt-2 mb-2">
+          Kennedy Yung
+        </div>
+
+        <div className="grid grid-flow-row items-center justify-center">
           <div>
             <Link href="https://www.linkedin.com/in/kennedy-yung/" rel="noopener noreferrer" target="_blank">
-              <img src="linkedin.png" alt="" className="inline-block w-8 h-8 mx-5 hover:bg-sky-100"/>
+              <img src="linkedin.png" alt="LinkedIn" className="inline-block w-8 h-8 mx-5 hover:bg-sky-100"/>
             </Link>
             <Link href="https://github.com/kennedyyung" rel="noopener noreferrer" target="_blank">
-              <img src="github.png" alt="" className="inline-block w-8 h-8 mx-5 hover:bg-sky-100"/>
+              <img src="github.png" alt="GitHub" className="inline-block w-8 h-8 mx-5 hover:bg-sky-100"/>
             </Link>
             <Link href="https://devpost.com/kennedyyung?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" rel="noopener noreferrer" target="_blank">
-              <img src="DevPost.png" alt="" className="inline-block w-10 h-9 mx-5 hover:bg-sky-100"/>
+              <img src="DevPost.png" alt="DevPost" className="inline-block w-10 h-9 mx-5 hover:bg-sky-100"/>
             </Link>
           </div>
         </div>
@@ -67,6 +69,9 @@ const Sidebar = ({ open, setOpen }) => {
           ))}
         </ul>
       </nav>
+      <div className="flex justify-center my-8">
+        <ThemeSwitcher />
+      </div>
     </div>
   );
 };
