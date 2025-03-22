@@ -15,8 +15,8 @@ const learningTech = [
 
 const HomePage = () => {
   return (
-    <div className="flex justify-center items-center bg-base dark:bg-dark-base h-screen">
-            <Head>
+    <div className="flex justify-center items-center bg-base dark:bg-dark-base sm:h-screen h-auto">
+      <Head>
         <title>Home Page</title>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-064E3270RM"></script>
         <script
@@ -52,12 +52,12 @@ const HomePage = () => {
           ))}
         </div>
   
-        <p className="ml-20 text-lg font-extrabold mt-2 text-black dark:text-dark-text mb-1">Languages and Frameworks I&apos;m currently working on:</p>
+        {/* <p className="ml-20 text-lg font-extrabold mt-2 text-black dark:text-dark-text mb-1">Languages and Frameworks I&apos;m currently working on:</p>
         <div className="grid-flow-col ml-20 text-black dark:text-dark-text">
         {learningTech.map((tech, index) => (
             <div key={index} className="badge text-norm badge-lg badge-outline border-txt border-2 mr-1 mb-1 hover:bg-txt">{tech}</div>
           ))}
-        </div>
+        </div> */}
 
 
       </div>
