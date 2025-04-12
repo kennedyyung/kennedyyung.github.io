@@ -19,9 +19,9 @@ const Experience = () => {
   <div className="collapse-content text-sm">
     <p className="font-bold">Engineers and Geoscientists BC</p>
     <ul className="list-disc list-inside">
-      <li> Developing a custom Outlook add-on, reducing annual liscensing costs </li>
-      <li>Implementing new features and bug fixes on internal and external applications using KendoUI, MVC.Net, and 
-      React.js </li>
+      <li>Built a custom Outlook add-on using C# and .NET, integrating external systems via REST API calls to streamline attachment uploads to DocuShare and update internal platforms, saving $5,000+ annually </li>
+      <li>Using C#, Kendo UI, ASP.NET MVC, and React.js, implementing new features and resolving bugs in collaboration with cross-functional teams</li>
+      <li>Leveraging Azure DevOps for task tracking and source control collaboration</li>
     </ul>
   </div>
 </div>
