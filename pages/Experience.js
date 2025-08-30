@@ -19,9 +19,10 @@ const Experience = () => {
   <div className="collapse-content text-sm">
     <p className="font-bold">Engineers and Geoscientists BC</p>
     <ul className="list-disc list-inside">
-      <li>Built a custom Outlook add-on using C# and .NET, integrating external systems via REST API calls to streamline attachment uploads to DocuShare and update internal platforms, saving $5,000+ annually </li>
-      <li>Using C#, Kendo UI, ASP.NET MVC, and React.js, implementing new features and resolving bugs in collaboration with cross-functional teams</li>
-      <li>Leveraging Azure DevOps for task tracking and source control collaboration</li>
+      <li>Proposed, researched, and developed an MVVM WPF desktop app to streamline document uploads to DocuShare and internal sites, delivering it as an MSI installer to replace a licensed tool </li>
+      <li>Built a C#/.NET Core MVC Outlook add-on to integrate DocuShare and internal site document uploads via RESTful APIs, reducing annual licensing costs and improving workflow efficiency</li>
+      <li>Enhanced internal tools used by 150+ staff and contributed to public-facing sites using ASP.NET, React.js, and Kendo UI, improving user experience and functionality</li>
+      <li>Collaborated with multiple departments to implement website and database updates, ensuring data integrity and smooth operation across applications</li>
     </ul>
   </div>
 </div>
@@ -44,17 +45,16 @@ const Experience = () => {
     </div>
     <div className=" collapse-arrow timeline-end timeline-box w-2/3 collapse dark:text-black">
   <input type="checkbox" />
-  <div className="collapse-title text-lg">M2M: Co-lead</div>
+  <div className="collapse-title text-lg">Co-lead</div>
   <div className="collapse-content text-sm">
-    <p className="font-bold">UBC BEST Design Team</p>
+    <p className="font-bold">Muscle to Movement(M2M)</p>
     <ul className="list-disc list-inside ">
-              <li>Leading the design and development of our games, ensuring seamless user experience
-              </li>
-              <li>
-              Leading the redesign and migration of our React Native app to Flutter, improving performance and cross-platform consistency
-              </li>
-              <li>Engaging with entrepreneurship@UBC through workshops to explore commercialization opportunities
-              </li>
+              <li>Oversee both hardware and software development for a gamified rehabilitation platform supporting patients with neuromuscular disorders</li>
+              <li>Led the migration and redesign of our mobile app from React Native to Flutter, improving performance and ensuring cross-platform consistency</li>
+              <li>Designed and developed interactive rehabilitation games, focusing on intuitive controls and engaging user experience</li>
+              <li>Engaged with entrepreneurship@UBC through workshops and mentorship to explore commercialization and go-to-market strategies</li>
+              <li>Conducted market research and stakeholder interviews to define user needs, value propositions, and competitive differentiation</li>
+              <li>Developed business models and strategic positioning based on research findings and feedback from clinicians and patients</li>
             </ul>
   </div>
 </div>
@@ -95,9 +95,9 @@ const Experience = () => {
     <hr className=" bg-sidebar"/>
     <div className=" collapse-arrow timeline-end timeline-box w-2/3 collapse dark:text-black">
   <input type="checkbox" />
-  <div className="collapse-title text-lg">M2M: Software Engineer</div>
+  <div className="collapse-title text-lg">Software Engineer</div>
   <div className="collapse-content text-sm">
-    <p className="font-bold">UBC BEST Design Team</p>
+    <p className="font-bold">UBC BEST Design Team(M2M)</p>
     <ul className="list-disc list-inside ">
               <li>Established a modular UI component library with React Native for the application, improving development speed
               </li>
