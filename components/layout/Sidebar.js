@@ -5,9 +5,11 @@ import Image from "next/image";
 import { defaultNavItems } from "./defaultNavItems";
 import { useOnClickOutside } from "usehooks-ts";
 import ThemeSwitcher from "./ThemeSwitcher"; 
+import { useRouter } from "next/router";
 
 const Sidebar = ({ open, setOpen }) => {
   const ref = useRef(null);
+  const router = useRouter();
 
   useOnClickOutside(ref, () => setOpen(false));
 
@@ -15,10 +17,10 @@ const Sidebar = ({ open, setOpen }) => {
     <div
       className={classNames({
         "flex flex-col justify-between": true, 
-        "bg-sidebar text-black": true, 
+        "bg-sidebar text-black": true,
         "md:w-full md:sticky md:top-1 md:z-0 top-0 z-20 fixed": true, 
         "md:h-screen w-[300px] overflow-y-auto": true, 
-        "transition-transform .3s ease-in-out md:-translate-x-0": true, 
+        "transition-transform duration-300 ease-in-out md:-translate-x-0": true,
         "-translate-x-full": !open, 
       })}
       ref={ref}
@@ -41,32 +43,57 @@ const Sidebar = ({ open, setOpen }) => {
         <div className="grid grid-flow-row items-center justify-center">
           <div>
             <Link href="https://www.linkedin.com/in/kennedy-yung/" rel="noopener noreferrer" target="_blank">
-              <img src="linkedin.png" alt="LinkedIn" className="inline-block w-8 h-8 mx-5 hover:bg-sky-100"/>
+              <Image src="/linkedin.png" alt="LinkedIn" width={32} height={32} className="inline-block mx-5 rounded-md hover:bg-sky-100" />
             </Link>
             <Link href="https://github.com/kennedyyung" rel="noopener noreferrer" target="_blank">
-              <img src="github.png" alt="GitHub" className="inline-block w-8 h-8 mx-5 hover:bg-sky-100"/>
+              <Image src="/github.png" alt="GitHub" width={32} height={32} className="inline-block mx-5 rounded-md hover:bg-sky-100" />
             </Link>
             <Link href="https://devpost.com/kennedyyung?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" rel="noopener noreferrer" target="_blank">
-              <img src="DevPost.png" alt="DevPost" className="inline-block w-10 h-9 mx-5 hover:bg-sky-100"/>
+              <Image src="/DevPost.png" alt="DevPost" width={40} height={36} className="inline-block mx-5 rounded-md hover:bg-sky-100" />
             </Link>
           </div>
         </div>
 
         <ul className="py-1 flex flex-col gap-1">
-          {defaultNavItems.map((item, index) => (
-            <a key={index} href={item.href}>
-              <li
-                className={classNames({
-                  "text-black hover:bg-indigo-900": true, 
-                  "flex gap-4 items-center": true, 
-                  "transition-colors duration-300": true, 
-                  "rounded-md p-2 mx-2": true 
-                })}
-              >
-                {item.icon} {item.label}
+          {defaultNavItems.map((item) => {
+            const isExternal =
+              item.href.endsWith(".pdf") || item.href.startsWith("http");
+            const isActive = !isExternal && router.asPath === item.href;
+
+            const linkClassName = classNames(
+              "flex gap-4 items-center rounded-md p-2 mx-2 transition-colors duration-200",
+              isActive
+                ? "bg-black/10 text-black"
+                : "text-black/90 hover:bg-black/10"
+            );
+
+            if (isExternal) {
+              return (
+                <li key={item.label}>
+                  <a
+                    href={item.href}
+                    target={item.target}
+                    rel={item.rel}
+                    className={linkClassName}
+                  >
+                    {item.icon} {item.label}
+                  </a>
+                </li>
+              );
+            }
+
+            return (
+              <li key={item.label}>
+                <Link
+                  href={item.href}
+                  className={linkClassName}
+                  onClick={() => setOpen(false)}
+                >
+                  {item.icon} {item.label}
+                </Link>
               </li>
-            </a>
-          ))}
+            );
+          })}
         </ul>
       </nav>
       <div className="flex justify-center my-8">

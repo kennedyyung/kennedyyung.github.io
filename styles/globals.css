@@ -2,14 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-    background-color: #fcfcfc;
-} */
-/* 
-body {
-    @apply bg-base;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-base text-black antialiased;
+  }
+
+  .dark body {
+    @apply bg-dark-base text-dark-text;
+  }
 }
 
-.dark\:body {
-    @apply bg-dark-base;
-} */
+@layer utilities {
+  .container-page {
+    @apply mx-auto w-full max-w-5xl px-6;
+  }
+
+  .section-pad {
+    @apply py-16 sm:py-24;
+  }
+
+  .card-surface {
+    @apply rounded-2xl border border-black/10 bg-white/70 shadow-sm backdrop-blur;
+  }
+
+  .dark .card-surface {
+    @apply border-white/10 bg-white/5;
+  }
+}

@@ -1,0 +1,63 @@
+export const projects = [
+  {
+    slug: "EcoChef",
+    title: "EcoChef",
+    dateLabel: "Sept, 2024",
+    image: { src: "/ecochef.png", alt: "EcoChef preview" },
+    tags: ["React Native", "Python", "AWS Services"],
+  },
+  {
+    slug: "ArcQuest",
+    title: "Arc'Quest",
+    dateLabel: "Apr, 2024",
+    image: { src: "/Arc'Quest.png", alt: "Arc'Quest preview" },
+    tags: ["React Native"],
+    featured: true,
+  },
+  {
+    slug: "BudgetBuddies",
+    title: "Budget Buddies",
+    dateLabel: "Mar, 2024",
+    image: { src: "/BudgetBuddies.PNG", alt: "Budget Buddies preview" },
+    tags: ["React.js", "TailwindCSS"],
+    featured: true,
+  },
+  {
+    slug: "Inteflow",
+    title: "Inteflow",
+    dateLabel: "Aug, 2023",
+    image: { src: "/Inteflow.png", alt: "Inteflow preview" },
+    tags: ["Swift", "SwiftUI"],
+    featured: true,
+  },
+  {
+    slug: "Kizuna",
+    title: "Kizuna",
+    dateLabel: "Jan, 2023",
+    image: { src: "/kizuna.jpg", alt: "Kizuna preview" },
+    tags: ["React.js", "CSS", "HTML"],
+    featured: true,
+  },
+  {
+    slug: "HarmonyHealth",
+    title: "Harmony Health",
+    dateLabel: "Jan, 2024",
+    image: { src: "/HarmonyHealth.png", alt: "Harmony Health preview" },
+    tags: ["React.js", "TailwindCSS", "TypeScript"],
+  },
+  {
+    slug: "HarvestHub",
+    title: "Harvest Hub",
+    dateLabel: "Jan, 2024",
+    image: { src: "/Harvesthub.png", alt: "Harvest Hub preview" },
+    tags: ["Figma"],
+  },
+  {
+    slug: "Pomo",
+    title: "Pomo's Paradise",
+    dateLabel: "Feb, 2023",
+    image: { src: "/pomo.PNG", alt: "Pomo's Paradise preview" },
+    tags: ["React.js", "CSS", "HTML"],
+  },
+];
+

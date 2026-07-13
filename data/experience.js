@@ -1,0 +1,75 @@
+export const experience = [
+  {
+    title: "Junior Software Developer",
+    org: "Boon Movement · Vancouver, BC",
+    dateLabel: "Jan 2026 – Present",
+    side: "right",
+    highlights: [
+      "Architected multi-tenant web and mobile features using Next.js, TypeScript, and AWS Services for 200+ users",
+      "Set up a secure MFA system (TOTP/passkeys) on AWS Cognito with role-based enforcement and HIPAA/PIPEDA-compliant audit logging",
+      "Packaged, code-signed, and shipped the iOS app to TestFlight, managing the distribution pipeline under the Apple Developer Program",
+      "Designed Figma wireframes and built a Webflow site, collaborating directly on product positioning and marketing strategies",
+    ],
+  },
+  {
+    title: "Information Systems Intern",
+    org: "Engineers and Geoscientists BC",
+    dateLabel: "Jan 2025 – Dec 2025",
+    side: "left",
+    highlights: [
+      "Proposed, researched, and developed an MVVM WPF desktop app to streamline document uploads to DocuShare and internal sites, delivering it as an MSI installer to replace a licensed tool",
+      "Built a C#/.NET Core MVC Outlook add-on to integrate DocuShare and internal site document uploads via RESTful APIs, reducing annual licensing costs and improving workflow efficiency",
+      "Enhanced internal tools used by 150+ staff and contributed to public-facing sites using ASP.NET, React.js, and Kendo UI, improving user experience and functionality",
+      "Collaborated with multiple departments to implement website and database updates, ensuring data integrity and smooth operation across applications",
+    ],
+  },
+  {
+    title: "Co-lead",
+    org: "Muscle to Movement (M2M)",
+    dateLabel: "Sept 2024 – May 2026",
+    side: "right",
+    highlights: [
+      "Oversee both hardware and software development for a gamified rehabilitation platform supporting patients with neuromuscular disorders",
+      "Led the migration and redesign of our mobile app from React Native to Flutter, improving performance and ensuring cross-platform consistency",
+      "Designed and developed interactive rehabilitation games, focusing on intuitive controls and engaging user experience",
+      "Engaged with entrepreneurship@UBC through workshops and mentorship to explore commercialization and go-to-market strategies",
+      "Conducted market research and stakeholder interviews to define user needs, value propositions, and competitive differentiation",
+      "Developed business models and strategic positioning based on research findings and feedback from clinicians and patients",
+    ],
+  },
+  {
+    title: "Front-end Web Developer Intern",
+    org: "UBC Faculty of Applied Science",
+    dateLabel: "May 2024 – Dec 2024",
+    side: "left",
+    highlights: [
+      "Developed customizable Twig templates for websites, reducing website creation time",
+      "Streamlined workflow with Atlassian Confluence, Jira, and Git, following Software Development Life Cycle (SDLC) practices",
+      "Reviewed peer code submissions, implementing a feedback loop; resulted in improved code and expedited timelines",
+      "Increased engagement across multiple faculty websites by 15% through targeted improvements",
+      "Collaborated with developers, designers, and PMs using Agile methodologies to efficiently manage timelines",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    org: "UBC BEST Design Team (M2M)",
+    dateLabel: "Oct 2023 – Sept 2024",
+    side: "right",
+    highlights: [
+      "Established a modular UI component library with React Native for the application, improving development speed",
+      "Enhanced functionality and resolved technical problems within the games coded in C# through Unity",
+      "Designed and created vectors and background images",
+    ],
+  },
+  {
+    title: "Student Developer",
+    org: "UBC Computer Science Society",
+    dateLabel: "Nov 2023 – Apr 2024",
+    side: "left",
+    highlights: [
+      "Collaborating within a team to develop a website for UBC Tennis Circle Club",
+      "Programmed using Next.js and Typescript, with MongoDB for the database, and ChakraUI for UI framework",
+    ],
+  },
+];
+

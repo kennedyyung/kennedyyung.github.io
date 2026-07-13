@@ -7,7 +7,7 @@ const Layout = (props) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
     <NextThemeProvider attribute="class">
-      <div className="flex flex-col min-h-screen bg-zinc-100">
+      <div className="flex min-h-screen flex-col">
         {/* Hide Navbar on screens larger than 'sm' */}
         <div className="block sm:hidden">
           <Navbar onMenuButtonClick={() => setSidebarOpen((prev) => !prev)} />
