@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #eef1f5; font-family: 'Inter', system-ui, sans-serif; color: #0f1a2b; }
+  a { color: inherit; text-decoration: none; }
+</style>
+</helmet>
+
+<div style="min-height: 100vh; padding: 48px; display: flex; flex-direction: column; gap: 32px;">
+
+  <div style="display: flex; align-items: baseline; gap: 24px; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #5a6a80;">
+    <span style="font-weight: 600; color: #0f1a2b;">Project page</span>
+    <span>Minimal detail view</span>
+  </div>
+
+  <section style="display: flex; gap: 40px; align-items: flex-start;">
+    <div id="4b" style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 16px;">
+      <div style="display: flex; align-items: center; gap: 12px; font-family: 'JetBrains Mono', monospace; font-size: 12px;">
+        <span style="background: #0f1a2b; color: #f5f7fa; padding: 4px 10px; border-radius: 999px; font-weight: 600;">4b</span>
+        <span style="color: #5a6a80;">EcoChef — trimmed</span>
+      </div>
+
+      <div style="background: #f5f2ea; border-radius: 24px; overflow: hidden; box-shadow: 0 40px 80px -30px rgba(15,26,43,0.25); border: 1px solid rgba(15,26,43,0.06);">
+
+        <!-- Top bar -->
+        <div style="padding: 20px 40px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(15,26,43,0.08); font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <div style="width: 10px; height: 10px; border-radius: 50%; background: #2d5aa8;"></div>
+            <span style="font-weight: 600;">Kennedy Yung</span>
+          </div>
+          <div style="display: flex; gap: 24px; color: #5a6a80;">
+            <span>Work</span><span>Experience</span><span>About</span><span>Contact ↗</span>
+          </div>
+        </div>
+
+        <!-- Header -->
+        <div style="padding: 40px 60px 32px;">
+          <a style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #2d5aa8; margin-bottom: 24px; display: inline-block;">← All work</a>
+
+          <div style="display: flex; justify-content: space-between; align-items: end; gap: 40px; margin-top: 12px;">
+            <div>
+              <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #97a4b8; margin-bottom: 14px;">Sept 2024 · React Native · Python · AWS</div>
+              <h1 style="font-family: 'Fraunces', serif; font-weight: 500; font-size: 84px; line-height: 0.95; letter-spacing: -0.035em; margin: 0; color: #0f1a2b;">
+                Eco<em style="font-style: italic; color: #2d5aa8;">Chef</em>.
+              </h1>
+            </div>
+            <a style="font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 12px 18px; background: #0f1a2b; color: #eaf1fb; border-radius: 999px; white-space: nowrap;">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- Hero image -->
+        <div style="padding: 0 60px 48px;">
+          <div style="aspect-ratio: 16/8; border-radius: 16px; background: linear-gradient(180deg, #b8d0ea 0%, #92b5da 100%); position: relative; overflow: hidden; display: flex; align-items: flex-end; padding: 24px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #1a2f4a;">
+            <div style="position: absolute; top: 40px; right: 60px; width: 140px; height: 140px; border-radius: 50%; background: #2d5aa8; opacity: 0.95;"></div>
+            <div style="position: absolute; bottom: -60px; left: -60px; width: 220px; height: 220px; border-radius: 50%; background: #0f1a2b; opacity: 0.12;"></div>
+            <span style="position: relative;">[hero shot — three phone screens]</span>
+          </div>
+        </div>
+
+        <!-- Overview -->
+        <div style="padding: 0 60px 64px; max-width: 780px;">
+          <p style="font-family: 'Fraunces', serif; font-size: 22px; line-height: 1.55; color: #2a3a56; margin: 0;">
+            A mobile app built at UBC CIC Hackathon 2024. React Native front-end, Python (Flask) back-end. AWS Bedrock and DynamoDB read your preferences and suggest recipes from what's already in your fridge — each one tagged with the carbon and water it saves.
+          </p>
+          <p style="font-family: 'Fraunces', serif; font-size: 22px; line-height: 1.55; color: #2a3a56; margin: 20px 0 0;">
+            Aligned with <em style="font-style: italic; color: #2d5aa8;">UN SDG #12</em> — Responsible Consumption and Production.
+          </p>
+        </div>
+
+        <!-- Next project -->
+        <div style="padding: 32px 60px; background: #0f1a2b; color: #eaf1fb; display: flex; justify-content: space-between; align-items: center;">
+          <div style="font-family: 'Fraunces', serif; font-size: 24px; font-weight: 500;">Next: Arc'<em style="font-style: italic; color: #6a9ad4;">Quest</em> →</div>
+          <a style="font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 10px 16px; background: rgba(255,255,255,0.08); border-radius: 999px;">All work ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</x-dc>
+</body>
+</html>

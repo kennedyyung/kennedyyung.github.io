@@ -3,6 +3,8 @@ export const experience = [
     title: "Junior Software Developer",
     org: "Boon Movement · Vancouver, BC",
     dateLabel: "Jan 2026 – Present",
+    shortDateLabel: "2026 — Now",
+    isCurrent: true,
     side: "right",
     highlights: [
       "Architected multi-tenant web and mobile features using Next.js, TypeScript, and AWS Services for 200+ users",
@@ -15,6 +17,8 @@ export const experience = [
     title: "Information Systems Intern",
     org: "Engineers and Geoscientists BC",
     dateLabel: "Jan 2025 – Dec 2025",
+    shortDateLabel: "2025",
+    isCurrent: false,
     side: "left",
     highlights: [
       "Proposed, researched, and developed an MVVM WPF desktop app to streamline document uploads to DocuShare and internal sites, delivering it as an MSI installer to replace a licensed tool",
@@ -27,6 +31,8 @@ export const experience = [
     title: "Co-lead",
     org: "Muscle to Movement (M2M)",
     dateLabel: "Sept 2024 – May 2026",
+    shortDateLabel: "2024 — 2026",
+    isCurrent: false,
     side: "right",
     highlights: [
       "Oversee both hardware and software development for a gamified rehabilitation platform supporting patients with neuromuscular disorders",
@@ -41,6 +47,8 @@ export const experience = [
     title: "Front-end Web Developer Intern",
     org: "UBC Faculty of Applied Science",
     dateLabel: "May 2024 – Dec 2024",
+    shortDateLabel: "2024",
+    isCurrent: false,
     side: "left",
     highlights: [
       "Developed customizable Twig templates for websites, reducing website creation time",
@@ -54,6 +62,8 @@ export const experience = [
     title: "Software Engineer",
     org: "UBC BEST Design Team (M2M)",
     dateLabel: "Oct 2023 – Sept 2024",
+    shortDateLabel: "2023 — 2024",
+    isCurrent: false,
     side: "right",
     highlights: [
       "Established a modular UI component library with React Native for the application, improving development speed",
@@ -65,6 +75,8 @@ export const experience = [
     title: "Student Developer",
     org: "UBC Computer Science Society",
     dateLabel: "Nov 2023 – Apr 2024",
+    shortDateLabel: "2023 — 2024",
+    isCurrent: false,
     side: "left",
     highlights: [
       "Collaborating within a team to develop a website for UBC Tennis Circle Club",
@@ -72,4 +84,3 @@ export const experience = [
     ],
   },
 ];
-

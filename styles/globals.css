@@ -8,28 +8,6 @@
   }
 
   body {
-    @apply bg-base text-black antialiased;
-  }
-
-  .dark body {
-    @apply bg-dark-base text-dark-text;
-  }
-}
-
-@layer utilities {
-  .container-page {
-    @apply mx-auto w-full max-w-5xl px-6;
-  }
-
-  .section-pad {
-    @apply py-16 sm:py-24;
-  }
-
-  .card-surface {
-    @apply rounded-2xl border border-black/10 bg-white/70 shadow-sm backdrop-blur;
-  }
-
-  .dark .card-surface {
-    @apply border-white/10 bg-white/5;
+    @apply m-0 bg-card p-0 font-sans text-primary antialiased;
   }
 }

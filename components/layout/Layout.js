@@ -1,24 +1,7 @@
-import React, { useState } from "react";
-import Navbar from "./Navbar";
-import Sidebar from "./Sidebar";
-import { ThemeProvider as NextThemeProvider } from "next-themes";
+import React from "react";
 
-const Layout = (props) => {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-  return (
-    <NextThemeProvider attribute="class">
-      <div className="flex min-h-screen flex-col">
-        {/* Hide Navbar on screens larger than 'sm' */}
-        <div className="block sm:hidden">
-          <Navbar onMenuButtonClick={() => setSidebarOpen((prev) => !prev)} />
-        </div>
-        <div className="grid md:grid-cols-sidebar">
-          <Sidebar open={sidebarOpen} setOpen={setSidebarOpen} />
-          <div className="md:col-span-sidebar">{props.children}</div>
-        </div>
-      </div>
-    </NextThemeProvider>
-  );
+const Layout = ({ children }) => {
+  return <div className="min-h-screen">{children}</div>;
 };
 
 export default Layout;

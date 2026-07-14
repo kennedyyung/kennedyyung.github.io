@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #eef1f5; font-family: 'Inter', system-ui, sans-serif; color: #0f1a2b; }
+  a { color: inherit; text-decoration: none; }
+</style>
+</helmet>
+
+<div style="min-height: 100vh; padding: 48px; display: flex; flex-direction: column; gap: 32px;">
+
+  <div style="display: flex; align-items: baseline; gap: 24px; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #5a6a80;">
+    <span style="font-weight: 600; color: #0f1a2b;">Turn 3</span>
+    <span>Editorial — blue palette</span>
+    <span style="margin-left: auto;">Based on <a href="#2a" style="color: #2d5aa8; text-decoration: underline;">2a</a></span>
+  </div>
+
+  <section style="display: flex; gap: 40px; align-items: flex-start;">
+    <div id="3a" style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 16px;">
+      <div style="display: flex; align-items: center; gap: 12px; font-family: 'JetBrains Mono', monospace; font-size: 12px;">
+        <span style="background: #0f1a2b; color: #f5f7fa; padding: 4px 10px; border-radius: 999px; font-weight: 600;">3a</span>
+        <span style="color: #5a6a80;">Editorial in blue — cool cream base, cobalt + sky + navy accents</span>
+      </div>
+
+      <div style="background: #f5f2ea; border-radius: 24px; overflow: hidden; box-shadow: 0 40px 80px -30px rgba(15,26,43,0.25); border: 1px solid rgba(15,26,43,0.06);">
+
+        <!-- Top bar -->
+        <div style="padding: 20px 40px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(15,26,43,0.08); font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <div style="width: 10px; height: 10px; border-radius: 50%; background: #2d5aa8;"></div>
+            <span style="font-weight: 600;">Kennedy Yung</span>
+            <span style="color: #97a4b8;">— math &amp; software, UBC '26</span>
+          </div>
+          <div style="display: flex; gap: 24px; color: #5a6a80;">
+            <span>Work</span><span>Experience</span><span>About</span><span>Contact ↗</span>
+          </div>
+        </div>
+
+        <!-- Hero -->
+        <div style="background: linear-gradient(180deg, #b8d0ea 0%, #92b5da 100%); padding: 80px 60px 64px; position: relative; overflow: hidden;">
+          <div style="position: absolute; top: 40px; right: 60px; width: 180px; height: 180px; border-radius: 50%; background: #2d5aa8; opacity: 0.95;"></div>
+          <div style="position: absolute; bottom: -80px; left: -80px; width: 260px; height: 260px; border-radius: 50%; background: #0f1a2b; opacity: 0.12;"></div>
+
+          <div style="position: relative; display: grid; grid-template-columns: 1.5fr 1fr; gap: 48px; align-items: end;">
+            <div>
+              <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #2a4670; margin-bottom: 24px;">— Portfolio · Vol. 04 · Spring 2026</div>
+              <h1 style="font-family: 'Fraunces', serif; font-weight: 500; font-size: 96px; line-height: 0.95; letter-spacing: -0.035em; margin: 0 0 28px; color: #0f1a2b;">
+                Hi, I'm <em style="font-style: italic; color: #2d5aa8;">Kennedy</em>.
+              </h1>
+              <p style="font-family: 'Fraunces', serif; font-size: 24px; line-height: 1.45; color: #2a3a56; max-width: 520px; margin: 0;">
+                Fourth-year mathematics student at UBC, building thoughtful software from Vancouver.
+              </p>
+              <div style="margin-top: 32px; display: flex; gap: 10px; flex-wrap: wrap; font-family: 'JetBrains Mono', monospace; font-size: 12px;">
+                <span style="padding: 8px 14px; background: #0f1a2b; color: #b8d0ea; border-radius: 999px;">↗ See recent work</span>
+                <span style="padding: 8px 14px; background: rgba(255,255,255,0.55); color: #0f1a2b; border-radius: 999px; border: 1px solid rgba(15,26,43,0.15);">Download resume</span>
+              </div>
+            </div>
+
+            <div style="position: relative; aspect-ratio: 4/5; border-radius: 12px; overflow: hidden; background: repeating-linear-gradient(45deg, #8fb0d4, #8fb0d4 10px, #7ea1c6 10px, #7ea1c6 20px); display: flex; align-items: flex-end; padding: 20px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #1a2f4a; border: 1px solid rgba(15,26,43,0.1);">
+              [portrait]
+            </div>
+          </div>
+        </div>
+
+        <!-- Marquee tech row -->
+        <div style="padding: 22px 60px; background: #0f1a2b; color: #b8d0ea; border-bottom: 1px solid rgba(0,0,0,0.08); font-family: 'JetBrains Mono', monospace; font-size: 13px; display: flex; gap: 32px; overflow: hidden; white-space: nowrap;">
+          <span>React</span><span style="color: #6a9ad4;">✦</span><span>Swift</span><span style="color: #6a9ad4;">✦</span><span>Python</span><span style="color: #6a9ad4;">✦</span><span>Next.js</span><span style="color: #6a9ad4;">✦</span><span>Node</span><span style="color: #6a9ad4;">✦</span><span>SQL</span><span style="color: #6a9ad4;">✦</span><span>TailwindCSS</span><span style="color: #6a9ad4;">✦</span><span>SwiftUI</span><span style="color: #6a9ad4;">✦</span><span>C++</span><span style="color: #6a9ad4;">✦</span><span>Figma</span>
+        </div>
+
+        <!-- Featured work -->
+        <div style="padding: 72px 60px 40px;">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 40px;">
+            <div>
+              <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #97a4b8; margin-bottom: 8px;">§ 01</div>
+              <h2 style="font-family: 'Fraunces', serif; font-weight: 500; font-size: 44px; letter-spacing: -0.025em; margin: 0;">Selected <em style="font-style: italic; color: #2d5aa8;">work</em></h2>
+            </div>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #97a4b8;">2023 — 2026</span>
+          </div>
+
+          <div style="display: flex; flex-direction: column;">
+            <a style="display: grid; grid-template-columns: 60px 1fr auto auto auto; gap: 24px; padding: 26px 0; border-top: 1px solid rgba(15,26,43,0.15); align-items: center;">
+              <span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #97a4b8;">01</span>
+              <div>
+                <div style="font-family: 'Fraunces', serif; font-size: 28px; font-weight: 500;">EcoChef</div>
+                <div style="font-size: 13px; color: #5a6a80; margin-top: 4px;">Recipe app that suggests meals from what's already in your fridge.</div>
+              </div>
+              <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; padding: 4px 10px; background: #2d5aa8; color: #fff; border-radius: 999px;">React Native</span>
+              <span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #97a4b8;">Sept 2024</span>
+              <span style="font-family: 'Fraunces', serif; font-size: 24px; color: #2d5aa8;">↗</span>
+            </a>
+            <a style="display: grid; grid-template-columns: 60px 1fr auto auto auto; gap: 24px; padding: 26px 0; border-top: 1px solid rgba(15,26,43,0.15); align-items: center;">
+              <span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #97a4b8;">02</span>
+              <div>
+                <div style="font-family: 'Fraunces', serif; font-size: 28px; font-weight: 500;">Arc'Quest</div>
+                <div style="font-size: 13px; color: #5a6a80; margin-top: 4px;">Companion app for the Grouse Grand Traverse — track trails, log climbs.</div>
+              </div>
+              <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; padding: 4px 10px; background: #1e3a6b; color: #fff; border-radius: 999px;">React Native</span>
+              <span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #97a4b8;">Apr 2024</span>
+              <span style="font-family: 'Fraunces', serif; font-size: 24px; color: #1e3a6b;">↗</span>
+            </a>
+            <a style="display: grid; grid-template-columns: 60px 1fr auto auto auto; gap: 24px; padding: 26px 0; border-top: 1px solid rgba(15,26,43,0.15); align-items: center;">
+              <span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #97a4b8;">03</span>
+              <div>
+                <div style="font-family: 'Fraunces', serif; font-size: 28px; font-weight: 500;">Budget.</div>
+                <div style="font-size: 13px; color: #5a6a80; margin-top: 4px;">Personal finance tracker with clean monthly rollups and gentle nudges.</div>
+              </div>
+              <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; padding: 4px 10px; background: #6a9ad4; color: #fff; border-radius: 999px;">Next.js</span>
+              <span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #97a4b8;">Jan 2024</span>
+              <span style="font-family: 'Fraunces', serif; font-size: 24px; color: #6a9ad4;">↗</span>
+            </a>
+            <a style="display: grid; grid-template-columns: 60px 1fr auto auto auto; gap: 24px; padding: 26px 0; border-top: 1px solid rgba(15,26,43,0.15); border-bottom: 1px solid rgba(15,26,43,0.15); align-items: center;">
+              <span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #97a4b8;">04</span>
+              <div>
+                <div style="font-family: 'Fraunces', serif; font-size: 28px; font-weight: 500;">Lens</div>
+                <div style="font-size: 13px; color: #5a6a80; margin-top: 4px;">A photo-journaling companion for slow weekend days.</div>
+              </div>
+              <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; padding: 4px 10px; background: #4a7ab8; color: #fff; border-radius: 999px;">SwiftUI</span>
+              <span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #97a4b8;">Nov 2023</span>
+              <span style="font-family: 'Fraunces', serif; font-size: 24px; color: #4a7ab8;">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Experience + Education -->
+        <div style="padding: 40px 60px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 48px;">
+          <div>
+            <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #97a4b8; margin-bottom: 8px;">§ 02</div>
+            <h2 style="font-family: 'Fraunces', serif; font-weight: 500; font-size: 40px; letter-spacing: -0.025em; margin: 0 0 32px;">Where I've <em style="font-style: italic; color: #2d5aa8;">been</em></h2>
+            <div style="display: flex; flex-direction: column;">
+              <div style="display: grid; grid-template-columns: 140px 1fr; gap: 20px; padding: 18px 0; border-top: 1px solid rgba(15,26,43,0.1);">
+                <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #2d5aa8; padding-top: 4px; font-weight: 600;">2026 — Now</div>
+                <div>
+                  <div style="font-family: 'Fraunces', serif; font-size: 22px; font-weight: 500;">Jr. Software Developer</div>
+                  <div style="font-size: 13px; color: #5a6a80; margin-top: 2px;">Boon Movement · Vancouver</div>
+                </div>
+              </div>
+              <div style="display: grid; grid-template-columns: 140px 1fr; gap: 20px; padding: 18px 0; border-top: 1px solid rgba(15,26,43,0.1);">
+                <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #97a4b8; padding-top: 4px;">2025</div>
+                <div>
+                  <div style="font-family: 'Fraunces', serif; font-size: 22px; font-weight: 500;">Information Systems Intern</div>
+                  <div style="font-size: 13px; color: #5a6a80; margin-top: 2px;">Engineers &amp; Geoscientists BC</div>
+                </div>
+              </div>
+              <div style="display: grid; grid-template-columns: 140px 1fr; gap: 20px; padding: 18px 0; border-top: 1px solid rgba(15,26,43,0.1);">
+                <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #97a4b8; padding-top: 4px;">2024 — 2026</div>
+                <div>
+                  <div style="font-family: 'Fraunces', serif; font-size: 22px; font-weight: 500;">Co-lead, Muscle to Movement</div>
+                  <div style="font-size: 13px; color: #5a6a80; margin-top: 2px;">UBC student organization</div>
+                </div>
+              </div>
+              <div style="display: grid; grid-template-columns: 140px 1fr; gap: 20px; padding: 18px 0; border-top: 1px solid rgba(15,26,43,0.1);">
+                <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #97a4b8; padding-top: 4px;">2024</div>
+                <div>
+                  <div style="font-family: 'Fraunces', serif; font-size: 22px; font-weight: 500;">Front-end Developer Intern</div>
+                  <div style="font-size: 13px; color: #5a6a80; margin-top: 2px;">UBC Faculty of Applied Science</div>
+                </div>
+              </div>
+              <div style="display: grid; grid-template-columns: 140px 1fr; gap: 20px; padding: 18px 0; border-top: 1px solid rgba(15,26,43,0.1); border-bottom: 1px solid rgba(15,26,43,0.1);">
+                <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #97a4b8; padding-top: 4px;">2023 — 2024</div>
+                <div>
+                  <div style="font-family: 'Fraunces', serif; font-size: 22px; font-weight: 500;">Software Engineer</div>
+                  <div style="font-size: 13px; color: #5a6a80; margin-top: 2px;">UBC BEST Design Team (M2M)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 24px;">
+            <div style="background: #2d5aa8; color: #eaf1fb; border-radius: 20px; padding: 32px; position: relative; overflow: hidden;">
+              <div style="position: absolute; top: -30px; right: -30px; width: 120px; height: 120px; border-radius: 50%; background: rgba(255,255,255,0.08);"></div>
+              <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; opacity: 0.7; margin-bottom: 8px;">§ 03 — Education</div>
+              <div style="font-family: 'Fraunces', serif; font-size: 28px; font-weight: 500; line-height: 1.15; margin-bottom: 8px;">B.Sc. Mathematics</div>
+              <div style="font-size: 14px; opacity: 0.85;">University of British Columbia</div>
+              <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; margin-top: 20px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.15); display: flex; justify-content: space-between;">
+                <span>Class of 2026</span><span>Vancouver, BC</span>
+              </div>
+            </div>
+
+            <div style="background: #eaf1fb; border-radius: 20px; padding: 28px; border: 1px solid rgba(15,26,43,0.08);">
+              <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #97a4b8; margin-bottom: 12px;">Off-screen</div>
+              <p style="font-family: 'Fraunces', serif; font-size: 19px; line-height: 1.45; margin: 0; color: #1a2f4a;">
+                When I'm not shipping, I'm on a basketball court, in the gym, playing PC games, or elbow-deep in a batch of cookies.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer / Contact -->
+        <div style="margin-top: 40px; padding: 56px 60px; background: #0f1a2b; color: #eaf1fb; display: grid; grid-template-columns: 1.5fr 1fr; gap: 40px; align-items: end;">
+          <div>
+            <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #6a9ad4; margin-bottom: 12px;">§ 04 — Contact</div>
+            <h2 style="font-family: 'Fraunces', serif; font-weight: 500; font-size: 56px; letter-spacing: -0.03em; margin: 0 0 16px; line-height: 1;">Say <em style="font-style: italic; color: #6a9ad4;">hi</em>.</h2>
+            <p style="font-family: 'Fraunces', serif; font-size: 20px; line-height: 1.4; color: #b8c5d8; margin: 0; max-width: 440px;">
+              Open to summer 2026 roles and cool side projects. Fastest reply is email.
+            </p>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 10px; font-family: 'JetBrains Mono', monospace; font-size: 13px;">
+            <a style="display: flex; justify-content: space-between; padding: 12px 16px; background: rgba(255,255,255,0.06); border-radius: 8px;"><span>kennedy@example.com</span><span style="color: #6a9ad4;">↗</span></a>
+            <a style="display: flex; justify-content: space-between; padding: 12px 16px; background: rgba(255,255,255,0.06); border-radius: 8px;"><span>LinkedIn</span><span style="color: #6a9ad4;">↗</span></a>
+            <a style="display: flex; justify-content: space-between; padding: 12px 16px; background: rgba(255,255,255,0.06); border-radius: 8px;"><span>GitHub</span><span style="color: #6a9ad4;">↗</span></a>
+            <a style="display: flex; justify-content: space-between; padding: 12px 16px; background: rgba(255,255,255,0.06); border-radius: 8px;"><span>Devpost · Resume</span><span style="color: #6a9ad4;">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</x-dc>
+</body>
+</html>
