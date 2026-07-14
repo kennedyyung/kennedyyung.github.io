@@ -14,7 +14,7 @@ export default function WorkSection() {
             Selected <em className="italic text-cobalt">work</em>
           </h2>
         </div>
-        <span className="font-mono text-xs text-subtle">2023 — 2026</span>
+        <span className="font-mono text-xs text-subtle">2023 — 2025</span>
       </div>
 
       <div>

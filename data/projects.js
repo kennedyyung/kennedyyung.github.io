@@ -2,6 +2,37 @@ import { projectAccents } from "./site";
 
 export const projects = [
   {
+    slug: "Klarity",
+    title: "Klarity",
+    titleBefore: "",
+    titleEmphasis: "Klarity",
+    dateLabel: "Sept 2025",
+    image: {
+      src: "/klarity.png",
+      alt: "Klarity dashboard preview showing inbox, calendar, and developer views",
+      fit: "contain",
+    },
+    tags: ["Next.js", "TypeScript", "Python", "AWS"],
+    description:
+      "AI inbox assistant that categorizes emails and surfaces deadlines, finances, and priorities on a live dashboard.",
+    accent: projectAccents[0],
+    award: "Amazon DynamoDB Streams Runner-Up — Hack the North 2025",
+    links: [
+      { label: "Live site", href: "https://klarity.work" },
+      { label: "GitHub", href: "https://github.com/kennedyyung/hack-the-north" },
+      { label: "Devpost", href: "https://devpost.com/software/klarity-work" },
+    ],
+    paragraphs: [
+      "Built at Hack the North 2025 — an AI-powered inbox assistant that ingests emails in real time, categorizes them into school, work, finance, enterprise, or personal, and extracts deadlines, money in/out, priorities, and locations into a live web dashboard.",
+      "Next.js and TailwindCSS on Vercel for the front-end, Python with the Gmail API for ingestion, Gemini for summarization, and DynamoDB Streams with AWS Lambda for real-time pipelines.",
+      {
+        before: "Surfaces actionable insights like ",
+        emphasis: "“Pay tuition by Sept 15”",
+        after: " or scholarship deposits — turning inbox chaos into clarity.",
+      },
+    ],
+  },
+  {
     slug: "EcoChef",
     title: "EcoChef",
     titleBefore: "Eco",

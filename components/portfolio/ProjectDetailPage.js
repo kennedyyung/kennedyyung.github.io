@@ -119,7 +119,11 @@ export default function ProjectDetailPage({ slug }) {
                 alt={project.image.alt}
                 fill
                 sizes="(min-width: 768px) 1200px, 100vw"
-                className="relative object-cover object-center"
+                className={
+                  project.image.fit === "contain"
+                    ? "relative object-contain object-center p-4 md:p-8"
+                    : "relative object-cover object-center"
+                }
                 priority
               />
             </div>
