@@ -8,25 +8,29 @@ export const site = {
   portrait: { src: "/icon.jpg", alt: "Kennedy Yung" },
   resumeHref: "/Resume.pdf",
   offScreen:
-    "When I'm not shipping, I'm on a basketball court, in the gym, playing PC games, or elbow-deep in a batch of cookies.",
+    "When I'm outside of work, I'm playing basketball, at the gym, playing video games, or catching up on anime :)",
   contactIntro:
     "Open to summer 2026 roles and cool side projects. Fastest reply is email.",
   education: {
     degree: "B.Sc. Mathematics",
     school: "University of British Columbia",
-    classYear: "Class of 2026",
+    classYear: "Class of 2027",
     location: "Vancouver, BC",
   },
   techStack: [
     "React",
-    "Swift",
+    "TypeScript",
+    "JavaScript",
     "Python",
     "Next.js",
     "Node",
     "SQL",
     "TailwindCSS",
-    "SwiftUI",
+    "HTML",
+    "CSS",
     "C++",
+    "C#",
+    "AWS",
     "Figma",
   ],
   links: [

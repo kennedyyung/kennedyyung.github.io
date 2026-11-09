@@ -1,6 +1,6 @@
 export const experience = [
   {
-    title: "Junior Software Developer",
+    title: "Founding Engineer",
     org: "Boon Movement · Vancouver, BC",
     dateLabel: "Jan 2026 – Present",
     shortDateLabel: "2026 — Now",
